@@ -17,6 +17,10 @@ public class Girl {
         System.out.println("睡觉!");
     }
 
+    public void play(){
+        System.out.println("玩玩玩!");
+    }
+
     public String getName() {
         return name;
     }

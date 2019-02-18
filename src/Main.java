@@ -50,7 +50,7 @@ public class Main {
         // git log (只显示比当前时间节点更早的)
         // git reflog(查看所有日志)
 
-        // HEAD: 当前的指向
+        // HEAD: 当前的指向,最后一次提交的文职
         // git reset --hard HEAD^(退回到HEAD指向的前一个指向)
         // git reset --hard HEAD^^(退回到HEAD指向的前两个指向)
         // git reset --hard HEAD~100(退回到HEAD指向的前100个指向)
@@ -75,6 +75,14 @@ public class Main {
         // 2.add
         // 3.添加 休息方法
         // 4.commit
+
+        // 撤销修改
+        // 1.工作区: 直接修改或者命令(git checkout -- 文件)
+        // 2.暂存区: 直接修改,再次add;或者git reset HEAD 文件
+        // 3.版本库: 版本回退
+
+        // 删除文件
+
 
     }
 }
