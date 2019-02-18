@@ -10,6 +10,10 @@ public class Girl {
         this.age = age;
     }
 
+    public void shopping(){
+        System.out.println("买买买!");
+    }
+
     public String getName() {
         return name;
     }
