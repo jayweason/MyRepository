@@ -13,6 +13,9 @@ public class Girl {
     public void shopping(){
         System.out.println("买买买!");
     }
+    public void sleeping(){
+        System.out.println("睡觉!");
+    }
 
     public String getName() {
         return name;
